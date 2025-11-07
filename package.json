@@ -12,6 +12,7 @@
   "description": "",
   "dependencies": {
     "@inngest/agent-kit": "^0.13.1",
+    "dotenv": "^17.2.3",
     "inngest": "^3.45.0"
   },
   "devDependencies": {
