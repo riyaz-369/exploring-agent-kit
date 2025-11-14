@@ -1,7 +1,7 @@
 import { createAgent, gemini } from "@inngest/agent-kit";
 import { readFileSync } from "fs";
 import { join } from "path";
-import { config } from "./config";
+import { config } from "../config";
 
 // create agent
 const codeAssistant = createAgent({

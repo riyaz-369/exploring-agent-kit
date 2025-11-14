@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsx src/index.ts"
+    "start": "tsx src/code-assistant-v2/index.ts"
   },
   "keywords": [],
   "author": "",
@@ -13,7 +13,8 @@
   "dependencies": {
     "@inngest/agent-kit": "^0.13.1",
     "dotenv": "^17.2.3",
-    "inngest": "^3.45.0"
+    "inngest": "^3.45.0",
+    "zod": "^4.1.12"
   },
   "devDependencies": {
     "@types/node": "^24.10.0",
